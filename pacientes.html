@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OdontoGestão</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <aside>
+        <nav>
+            <section class="principal">
+                <img id="logo" src="imgs/dente.png" alt="logo">
+                <h2>OdontoGestão</h2>
+            </section>
+            <hr>
+            <ul>
+                <li><a href="index.html">Dashboard</a></li>
+                <li><a href="pacientes.html" class="ativo">Pacientes</a></li>
+                <li><a href="agendamentos.html">Agendamentos</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <main>
+        <header>
+            <h1>Pacientes</h1>
+            <p>Gerencie os pacientes cadastrados na clínica</p>
+        </header>
+        <div class="dashboard-cards">
+            <section class="card">
+                <img class="icone-card" src="imgs/search.svg" alt="">
+                <h3>Buscar paciente</h3>
+                <p id="find">Encontrar pelo nome ou CPF.</p>
+            </section>
+            <section class="card">
+                <img class="icone-card" src="imgs/user-round-plus.svg" alt="add paciente">
+                <h3>Adicionar paciente</h3>
+                <p id="cadastro">Cadastre um novo paciente.</p>
+            </section>
+        </div>
+        <section class="pacient-list">
+                <h3 class="titulo-pesquisa">Lista de pacientes</h3>
+                <form class="formulario-busca" action="/buscar" method="get">
+                    <img src="imgs/search.svg" alt="pesquisar">
+                    <input class="pesquisa"  type="text" name="q" placeholder="Pesquisar por nome ou CPF..." required>
+                </form>
+                <ul>
+                    <li></li>
+                </ul>
+        </section>        
+    </main>
+</body>
+</html>
+
