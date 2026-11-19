@@ -129,3 +129,44 @@ p {
     width: 24px;
     height: 24px;
 }
+
+.list {
+    margin-top: 30px;
+
+}
+
+.pacient {
+    border-top: 1px solid #e5e7eb;
+    padding: 16px 0;    
+}
+
+.pacient a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color:  #000000;
+    gap: 15px;
+}
+
+.info-paciente {
+    flex: 1;
+}
+
+.info-paciente h4, .info-paciente p {
+    margin: 0;
+}
+
+.info-paciente h4 {
+    margin-bottom: 5px;
+}
+
+.info-paciente p {
+    font-size: 13px;
+}
+
+.icone-pacient{
+    width: 30px;
+    height: 30px;
+    background-color:#d1fae5;
+    border-radius: 500px;
+}
