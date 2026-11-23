@@ -179,3 +179,156 @@ main p {
 .agendamento time {
     background-color:#d1fae5;
 }
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.cabecalho h1 {
+    margin: 0;
+}
+
+.cabecalho p {
+    margin: 5px 0 0;
+}
+
+.botao-primario {
+    background-color: #0F766E;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 12px 24px;
+    font: inherit;          
+    font-weight: 600;
+    cursor: pointer;        
+}
+
+.botao-primario:hover {
+    background-color: #115E59;
+}
+
+.filtros {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.filtros label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.filtros input,
+.filtros select {
+    font: inherit;
+    font-weight: 400;
+    padding: 10px 14px;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    background-color: white;
+    height: 42px;
+    box-sizing: border-box;
+}
+
+.filtros input:focus,
+.filtros select:focus {
+    outline: 2px solid #0F766E;
+}
+
+.titulo-lista {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.titulo-lista h2 {
+    margin: 0;
+}
+
+.titulo-lista time {
+    background-color: #d1fae5;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+.lista-agendamentos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.item-agendamento {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    border-radius: 16px;
+    padding: 15px 20px;
+}
+
+.horario {
+    font-size: 20px;
+    font-weight: 600;
+    padding-right: 20px;
+    border-right: 1px solid #e5e7eb;
+    width: 70px;
+}
+
+.status {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.status::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: currentColor;  /* bolinha da mesma cor do texto */
+}
+
+.status.confirmado {
+    background-color: #d1fae5;
+    color: #047857;
+}
+
+.status.agendado {
+    background-color: #dbeafe;
+    color: #1d4ed8;
+}
+
+.status.cancelado {
+    background-color: #fee2e2;
+    color: #b91c1c;
+}
+
+.botao-secundario {
+    text-decoration: none;
+    color: #0F766E;
+    border: 1px solid #0F766E;
+    border-radius: 12px;
+    padding: 8px 16px;
+    font-weight: 500;
+}
+
+.botao-secundario:hover {
+    background-color: #e6f4f1;
+}
