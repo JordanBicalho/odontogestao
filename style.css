@@ -45,7 +45,7 @@ aside a.ativo {
     border-radius: 20px;
 }
 
-h2 {
+aside h2 {
     margin-bottom: 20px;
     font-size: 20px;
     color: white;
@@ -80,7 +80,7 @@ h2 {
     flex: 1;
 }
 
-p {
+main p {
     color:  #5a5a5a;
 }
 
@@ -169,4 +169,13 @@ p {
     height: 30px;
     background-color:#d1fae5;
     border-radius: 500px;
+}
+
+.agendamento {
+    display: flex;
+    gap: 15px;
+}
+
+.agendamento time {
+    background-color:#d1fae5;
 }
