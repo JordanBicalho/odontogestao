@@ -26,7 +26,7 @@
 ## Tarefas de amanhã (meta: ~4h)
 Limite de tempo por tarefa. Se estourar, anota o que faltou e segue.
 
-1. [ ] Revisar o "Aprendido hoje" sem olhar o código (15 min)
+1. [ x ] Revisar o "Aprendido hoje" sem olhar o código (15 min)
 2. [ ] Objetos: array de agendamentos (45 min)
    - [ ] Cada agendamento como objeto: `horario`, `paciente`, `procedimento`, `status`
    - [ ] Testar no Console: `agendamentos[0].paciente`, `agendamentos.length`
