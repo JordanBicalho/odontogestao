@@ -27,13 +27,13 @@
 Limite de tempo por tarefa. Se estourar, anota o que faltou e segue.
 
 1. [ x ] Revisar o "Aprendido hoje" sem olhar o código (15 min)
-2. [ ] Objetos: array de agendamentos (45 min)
-   - [ ] Cada agendamento como objeto: `horario`, `paciente`, `procedimento`, `status`
-   - [ ] Testar no Console: `agendamentos[0].paciente`, `agendamentos.length`
-   - [ ] Escrever o total no card "Consultas Hoje" (`id="total-consultas"`)
-3. [ ] Separar o JS (30 min)
-   - [ ] `dados.js` com os arrays (pacientes e agendamentos)
-   - [ ] `dashboard.js` com o código do dashboard; carregar `dados.js` antes
+2. [ X ] Objetos: array de agendamentos (45 min)
+   - [ X ] Cada agendamento como objeto: `horario`, `paciente`, `procedimento`, `status`
+   - [ X ] Testar no Console: `agendamentos[0].paciente`, `agendamentos.length`
+   - [ X ] Escrever o total no card "Consultas Hoje" (`id="total-consultas"`)
+3. [X] Separar o JS (30 min)
+   - [X] `dados.js` com os arrays (pacientes e agendamentos)
+   - [X] `dashboard.js` com o código do dashboard; carregar `dados.js` antes
 4. [ ] Gerar a lista de agendamentos com JS (1h30)
    - [ ] `agendamentos.js` na `agendamentos.html`
    - [ ] Percorrer o array (`forEach`) e criar um `<li class="item-agendamento">` para cada
